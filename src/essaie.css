@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4em;
+    padding-right: 4em;
+    border-bottom: 0.5px solid black;
+    height: 2.5em;
+    background-color: aquamarine;
+    width: 100%;
+  }
+
+  .div2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .div2 div{
+    margin-left: 4vh;
+  }
+  .div2 div p{
+    font-size: 20px;
+  }
+  .div2 div p:hover{
+    cursor: alias;
+    color: blueviolet;
+  }
+  .section1{
+    width:68%;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 2em;
+  }
+  .section1 h3{
+    margin-top:5em;
+    text-align: center;
+  }
+  .section1 .input,select,button{
+    width: 100%;
+    height: 2em;
+  }
+  .section1 button:hover{
+    background-color: aquamarine;
+    color: blueviolet;
+  }
